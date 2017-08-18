@@ -29,6 +29,6 @@ class BodyMassService
   end
 
   def report
-    @report = "Your BMI is #{@bmi} and you belong to the #{@category} category"
+    {category: @category, bmi: @bmi}
   end
 end
