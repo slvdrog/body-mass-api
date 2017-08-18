@@ -29,6 +29,6 @@ class BodyMassService
   end
 
   def report
-    {category: @category, bmi: @bmi}
+    {category: @category, bmi: @bmi.round(2)}
   end
 end
